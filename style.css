@@ -1,0 +1,339 @@
+    body {
+        width: 1280px;
+        margin: 0 auto;
+        overflow-x: hidden;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    p,
+    h1,
+    h2,
+    h3,
+    h4 {
+        margin: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #000;
+        display: inline-block;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
+    .title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .item {
+        color: #3cb878;
+        font-style: italic;
+    }
+    
+    .title-product {
+        font-size: 14px;
+    }
+    
+    .price {
+        color: #3cb878;
+        font-weight: bold;
+        padding-top: 5px;
+    }
+    /* HEADER*/
+    
+    header .container {
+        display: flex;
+        align-items: center;
+        padding: 25px;
+    }
+    
+    header .container h2 {
+        color: #3cb878;
+        width: 25%;
+    }
+    
+    header .container ul {
+        width: 60%;
+    }
+    
+    header .container ul li {
+        display: inline-block;
+        margin-right: 29px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    header .container ul .active,
+    header .container ul li:hover {
+        color: #3cb878;
+    }
+    
+    .header-icon {
+        display: flex;
+        width: 15%;
+        justify-content: flex-end;
+    }
+    
+    .header-icon .icon-item {
+        position: relative;
+        margin-right: 20px;
+        font-size: 15px;
+    }
+    
+    .header-icon .icon-item span {
+        position: absolute;
+        top: -15px;
+        left: 10px;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #3cb878;
+        border-radius: 50%;
+        text-align: center;
+        background-color: #3cb878;
+        color: #fff;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /* slider*/
+    
+    slider div {
+        position: relative;
+    }
+    
+    slider div p {
+        position: absolute;
+        top: 35%;
+        left: 25%;
+        font-size: 45px;
+        font-weight: bold;
+    }
+    
+    slider div p span {
+        color: #3cb878;
+    }
+    /*best-seller*/
+    
+    .best-seller ul li p {
+        margin-top: 10px;
+    }
+    
+    .best-seller {
+        padding: 50px 0;
+    }
+    
+    best-seller div ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    best-seller div ul li {
+        width: calc(20% - 15px);
+    }
+    
+    .product-option {
+        position: relative;
+    }
+    
+    .icon-content {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    
+    .icon-content i {
+        padding: 10px 5px;
+        text-align: center;
+        color: #fff;
+        background-color: #3cb878;
+        padding: 8px 6px;
+        margin-bottom: 8px;
+        display: none;
+    }
+    
+    .product-option:hover .icon-content i {
+        display: block;
+        cursor: pointer;
+    }
+    /*ABOUT SHOP*/
+    
+    about-shop div ul {
+        display: flex;
+    }
+    
+    about-shop div ul li {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border: 1px solid white;
+        background-color: #f5f6f9;
+        padding: 35px;
+    }
+    
+    about-shop div ul li i {
+        color: #464646;
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    
+    about-shop div ul li a {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    about-shop div ul li p {
+        color: #99999a;
+        font-size: 13px;
+    }
+    /*fashion*/
+    
+    fashion div ul {
+        display: flex;
+    }
+    
+    fashion div ul li {
+        background-color: #2e3348;
+    }
+    
+    fashion div ul li:nth-child(2) {
+        background-color: #34394f;
+    }
+    /*featured-products*/
+    
+    .content {
+        text-align: center;
+        padding: 35px 0px;
+    }
+    
+    featured-products div ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    featured-products div ul li {
+        width: calc(20% - 15px);
+    }
+    
+    featured-products div ul {
+        margin-bottom: 40px;
+    }
+    /*footer*/
+    
+    .footer-1 ul {
+        display: flex;
+    }
+    
+    .footer-content2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+        background-color: #f5f6f9;
+    }
+    
+    .footer-2 {
+        color: #6c6c6c;
+        display: flex;
+        background-color: #000000;
+        align-items: center;
+        padding: 15px;
+    }
+    
+    .footer-2 p {
+        text-align: center;
+        width: 50%;
+    }
+    
+    .footer-2 ul {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+    }
+    
+    .footer-2 ul li {
+        margin: 0px 5px;
+    }
+    
+    .footer-content1 {
+        text-align: center;
+        color: #fff;
+        background-image: url(./img/bg-footer.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        padding: 60px;
+    }
+    
+    .footer-content1 div:nth-child(2) {
+        padding: 15px;
+    }
+    
+    .footer-email {
+        padding-top: 10px;
+    }
+    
+    .footer-email input {
+        margin-right: 5px;
+        width: 60%;
+        border: none;
+    }
+    
+    .footer-email input,
+    .footer-email button {
+        padding: 10px 15px;
+    }
+    
+    .footer-email button {
+        color: #fff;
+        background-color: #3cb878;
+        border: none;
+    }
+    /*respon*/
+    
+    @media screen and (max-width: 1500px) {
+        slider div p {
+            top: 35%;
+            left: 20%;
+            font-size: 40px;
+        }
+    }
+    
+    @media screen and (max-width: 1024px) {
+        header .container h2 {
+            color: #3cb878;
+            width: 25%;
+            font-size: 20px;
+        }
+        header .container ul li {
+            font-size: 14px;
+        }
+        slider div p {
+            left: 10%;
+            font-size: 35px;
+        }
+    }
